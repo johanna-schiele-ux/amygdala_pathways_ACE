@@ -45,10 +45,10 @@ Amygdala pathway group difference and dimensional analysis of exposure, personal
 - option to choose group and target clinical score 
 - input:
     - six different .csv files, script chooses the appropriate two (one for each metric) according to chosen group and target
-          - files contain tract values, covariates and clinical scores for each subject
-          - 2 files for group without PTSD
-          - 2 files for group with PTSD including all 51 subjects
-          - 2 files for group with PTSD including only 50 subjects used for PID5 analyses, since PID5 data was not available for one
+      - files contain tract values, covariates and clinical scores for each subject
+      - 2 files for group without PTSD
+      - 2 files for group with PTSD including all 51 subjects
+      - 2 files for group with PTSD including only 50 subjects used for PID5 analyses, since PID5 data was not available for one
 - model outputs containing full results for both groups are provided in _results/results_dimensional_analyses_NoPTSD.odt_ and  _results/results_dimensional_analyses_PTSD.odt_
 
 ## b) Spearman's rank correlation between tract metrics and clinical scores
