@@ -26,8 +26,24 @@ Amygdala pathway group difference and dimensional analysis of exposure, personal
 - extraction of metrics of fiber density (FD) and fiber cross-section (FC) for each subject and fiber bundle
   
 ## 4) Group difference of tract metrics
-- assessment of group differences of FD and Fc in the fiber bundles
+- assessment of group differences of FD and FC in the fiber bundles
+- conducts assumption checks and ANCOVA per bundle and metric
+    - age included as covariate for all models, FC model additionally contain brain volume
+    - option to add total CTQ as additional covariate for all models
 - script _group_difference.py_ provided in _code_
 - input:
     - folder with one .csv file per metric containing hemisphere-averaged values for each bundle and covariates for each subject
+
+## 5) Dimensional Analysis: Robust regression to predict clinical scores from tract metrics
+- assessment of association between fiber metrics and exposure (CTQ), personality (PID5), and symptoms (PCL5)
+- conducts assumption checks and robust Huber regression
+    - age included as covariate, FC values are residualized on brain volume 
+- script _dimensional_analyses.py_ provided in _code_
+- option to choose group and target clinical score 
+- input:
+    - six different .csv files, script chooses the appropriate two (one for each metric) according to chosen group and target
+          - files contain tract values, covariates and clinical scores for each subject
+          - 2 files for group without PTSD
+          - 2 files for group with PTSD including all 51 subjects
+          - 2 files for group with PTSD including only 50 subjects used for PID5 analyses, since PID5 data was not available for one
 
