@@ -34,8 +34,9 @@ Amygdala pathway group difference and dimensional analysis of exposure, personal
 - input:
     - folder with one .csv file per metric containing hemisphere-averaged values for each bundle and covariates for each subject
 
-## 5) Dimensional Analysis: Robust regression to predict clinical scores from tract metrics
-- assessment of association between fiber metrics and exposure (CTQ), personality (PID5), and symptoms (PCL5)
+## 5) Dimensional Analysis:
+## a) Robust regression to predict clinical scores from tract metrics
+- assessment of association between tract metrics and exposure (CTQ), personality (PID5), and symptoms (PCL5)
 - conducts assumption checks and robust Huber regression
     - age included as covariate, FC values are residualized on brain volume 
 - script _dimensional_analyses.py_ provided in _code_
@@ -47,3 +48,5 @@ Amygdala pathway group difference and dimensional analysis of exposure, personal
           - 2 files for group with PTSD including all 51 subjects
           - 2 files for group with PTSD including only 50 subjects used for PID5 analyses, since PID5 data was not available for one
 
+## b) Spearman's rank correlation between tract metrics and clinical scores
+- assessment of direct linear correlation between tract metrics and exposure, personality, and symptoms
