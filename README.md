@@ -19,7 +19,6 @@ Amygdala pathway group difference and dimensional analysis of exposure, personal
 - Cingulum Bundle: TractSeg-derived version complimented with manual tracking using tckgen to reconstruct amygdala connections
 - Stria Terminalis: Manual tracking using tckgen
 - reconstructed tract files in MNI2009b space are provided in _data/tracts_
-- masks used for tracking are provided in  _data/masks_
 
 ## 3) Fixel-based analysis
 - FBA using tools from MRtrix3 and MRtrix3tissue
