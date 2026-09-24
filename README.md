@@ -33,7 +33,7 @@ Amygdala pathway group difference and dimensional analysis of exposure, personal
 - script _group_difference.py_ provided in _code_
 - input:
     - folder with one .csv file per metric containing hemisphere-averaged values for each bundle and covariates for each subject
-- model outputs containing full results are provided in _results/results_group_analysis.odt_
+- model outputs containing full results are provided in _results/results_group_analysis.pdf_
 
 ## 5) Dimensional Analysis:
 ## a) Robust regression to predict clinical scores from tract metrics
@@ -48,7 +48,7 @@ Amygdala pathway group difference and dimensional analysis of exposure, personal
       - 2 files for group without PTSD
       - 2 files for group with PTSD including all 51 subjects
       - 2 files for group with PTSD including only 50 subjects used for PID5 analyses, since PID5 data was not available for one
-- model outputs containing full results for both groups are provided in _results/results_dimensional_analyses_NoPTSD.odt_ and  _results/results_dimensional_analyses_PTSD.odt_
+- model outputs containing full results for both groups are provided in _results/results_dimensional_analyses_NoPTSD.pdf_ and  _results/results_dimensional_analyses_PTSD.pdf_
 
 ## b) Spearman's rank correlation between tract metrics and clinical scores
 - assessment of direct linear correlation between tract metrics and exposure, personality, and symptoms
